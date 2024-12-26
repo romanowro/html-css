@@ -3,16 +3,13 @@ body{
 
 }
 
-tr.linha{
-    background-color: gray;
-}
-
-td.dado{
-    background-color: yellow;
-}
+ .numero{
+    text-align: right;
+ }
 
 table{
     width: 400px;
+    height: 400px;
     border-collapse: collapse;
 }
 
@@ -20,4 +17,6 @@ table{
 td{
     border: 1px solid black;
     padding: 8px;
+    text-align: center;
+    vertical-align: middle;
 }
