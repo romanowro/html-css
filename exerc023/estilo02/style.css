@@ -1,35 +1,48 @@
-
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-table{
-    width:500px;
-    border-collapse: collapse ;
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
 }
 
-td,th{
+td,
+th {
     border: 1px solid rgb(66, 60, 60);
     text-align: center;
     padding: 10px;
 }
-thead{
+
+thead {
     background-color: rgba(82, 74, 74, 0.588);
     color: white;
 }
 
-td.num{
+td.num {
     text-align: right;
 
 }
-td.nome{
+
+td.nome {
     text-align: left;
 }
 
-th.tot{
+th.tot {
     text-align: left;
 }
 
-tbody{
+tbody {
     background-color: azure;
+}
+
+caption {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+    
 }

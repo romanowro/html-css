@@ -10,15 +10,18 @@
 
 <body>
 
-    <p>Tabela Grandes</p>
 
+    
     <!--Anatomia para tabelas grandes-->
 
     <table>
+        <caption>
+            Populaçao do Estado do Espírito Santo
+        </caption>
         <thead>
             <tr>
-                <th class="nome">Estado</th>
-                <th>Populaçao</th>
+                <th class="nome" scope="col">Estado</th>
+                <th scope="col">Populaçao</th>
             </tr>
         </thead>
 
@@ -71,7 +74,7 @@
           
         <tfoot>
             <tr>
-                <th class="tot"><strong>Total de Habitantes</strong></th>
+                <th class="tot" scope="row"><strong>Total de Habitantes</strong></th>
                 <td class="num"><strong>127.147.215</strong></td>
             </tr>
         </tfoot>
