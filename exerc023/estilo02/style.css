@@ -3,10 +3,20 @@ body {
     
 }
 
+/*Efeito Zebrado*/
+
+tbody > tr:nth-child(odd) {
+    background-color: lightgray;
+}
+tbody > tr:nth-child(even) {
+    background-color: white(62, 108, 74, 0.54);
+}
+
 table {
     width: 500px;
     border-collapse: collapse;
     margin-bottom: 30px;
+    position: relative;
 }
 
 td,
@@ -17,9 +27,20 @@ th {
 }
 
 thead {
-    background-color: rgba(82, 74, 74, 0.588);
+    background-color: rgba(14, 9, 9, 0.746);
     color: white;
 }
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgba(18, 1, 1, 0.817);
+}
+
+tfoot{
+    background-color: rgba(82, 74, 74, 0.588);
+}
+
 
 td.num {
     text-align: right;
@@ -28,15 +49,19 @@ td.num {
 
 td.nome {
     text-align: left;
+    
 }
 
 th.tot {
     text-align: left;
+    
 }
+
 
 tbody {
     background-color: azure;
 }
+
 
 caption {
     margin-bottom: 5px;
@@ -46,3 +71,8 @@ caption {
     background-color: lightgray;
     
 }
+
+th.tamanho{
+    width: 40px;
+}
+
