@@ -1,0 +1,35 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width:500px;
+    border-collapse: collapse ;
+}
+
+td,th{
+    border: 1px solid rgb(66, 60, 60);
+    text-align: center;
+    padding: 10px;
+}
+thead{
+    background-color: rgba(82, 74, 74, 0.588);
+    color: white;
+}
+
+td.num{
+    text-align: right;
+
+}
+td.nome{
+    text-align: left;
+}
+
+th.tot{
+    text-align: left;
+}
+
+tbody{
+    background-color: azure;
+}
