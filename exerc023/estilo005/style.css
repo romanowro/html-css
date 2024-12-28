@@ -1,0 +1,32 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+
+
+}
+
+th,td{
+
+    border: 1px solid black;
+    text-align: center;
+}
+
+    caption{
+        margin-bottom: 10px;
+    }
+
+    
+.amarelo{
+    background-color: rgba(186, 186, 54, 0.518);
+}
+
+.vermelho{
+
+    background-color: rgba(201, 104, 104, 0.51);
+
+}
