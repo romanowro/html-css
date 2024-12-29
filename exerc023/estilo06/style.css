@@ -12,7 +12,7 @@ table{
 
 }
 
-tr:nth-child(even){
+ tr:nth-child(even){
     background-color: rgb(228, 170, 12);
 }
 
